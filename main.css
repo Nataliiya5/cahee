@@ -1,0 +1,90 @@
+body{
+	font-family: "Raleway";
+    overflow-x: hidden;
+    min-width: 320px;
+}
+header{
+	min-height: 136px;
+	min-width: 1200px;
+    background-size: cover;
+    height: 1px;
+    padding: 30px 80px;
+    position: relative;
+}
+.logo__link{
+	font-family: Pacifico;
+	color: rgb(38, 38, 38);
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 25px;
+	text-decoration: none;
+}
+.row-menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+	ul {
+		list-style: none;
+		display: flex;
+	}
+		.nav__item{
+			display: inline; 
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 25px;
+			text-align: right; 
+			margin-left: 40px; 
+		}
+		.nav__link{
+			text-decoration: none;
+			color: rgb(38, 38, 38);
+			text-transform: uppercase;
+			padding: 5px;
+        }
+		.nav__link:hover {
+		    border-top: #FD5F30 3px solid;
+		}
+		.sect{
+			min-height: 100vh;
+		    background: url('img/sect-bg.jpg') no-repeat center;
+		    background-size: cover;
+		    height: 1px;
+		    padding: 30px 80px;
+		    position: relative;
+		}
+.sect-descr{
+	    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: left;
+    width: 370px;
+    margin-top: 52px;
+    margin-left: 25px;
+}
+.sect-title{
+	font-size: 60px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    width: 370px;
+    color: rgb(38, 38, 38);
+    font-family: "Myriad Pro";
+}
+.btn_orange{
+	width: 200px;
+	height: 54px;
+	background: rgb(255, 96, 51);
+	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.4);\
+	padding: 10px 20px;
+    margin-top: 40px;
+    border: 0;
+}
+.btn_orange__text{
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: center;
+}
