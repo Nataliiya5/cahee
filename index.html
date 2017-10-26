@@ -1,45 +1,122 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,600,700,800" rel="stylesheet">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cahee</title>
-    <link rel="icon" href="img/favicon.png"/>
-    <link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-	<section class="header-section" id="home">
-		<!-- header -->
-		<header class="header">
-			<div class="row-menu">
-                <!-- logo -->
+	<section class="main-banner">
+		<div class="container">
+			<header class="main-banner__header flex-center">
 				<div class="logo__link">
 					<a href="index.html" class="logo__link">Cahee</a>
 				</div>
-				<!-- ./logo -->
-				<!-- nav -->
-					<div class="nav">
-						<ul class="nav__list">
-									<li class="nav__item"><a href="#home" class="nav__link">home</a></li>
-									<li class="nav__item"><a href="#about" class="nav__link">about</a></li>
-									<li class="nav__item"><a href="#" class="nav__link">services</a></li>
-									<li class="nav__item"><a href="#" class="nav__link">gallery</a></li>
-									<li class="nav__item"><a href="#" class="nav__link">blog</a></li>
-									<li class="nav__item"><a href="#" class="nav__link">contact</a></li>
-								</ul>		
-						</div> <!-- ./nav -->	
-			</div>	
-		</header>
-		<article class="container sect">
-			<h2 class="sect-title">Fresh Life</h2>
-		    <div class="sect-descr">
-		    	<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-		    	<button class="btn_orange btn_orange__text">GET FREE NOW</button>
+				<nav>
+					<ul class="flex-center">
+						<li><a href="#" class="main-banner__nav-link">home</a></li>
+						<li><a href="#about" class="main-banner__nav-link">about</a></li>
+						<li><a href="#services" class="main-banner__nav-link">services</a></li>
+						<li><a href="#gallery" class="main-banner__nav-link">gallery</a></li>
+						<li><a href="#blog" class="main-banner__nav-link">blog</a></li>
+						<li><a href="#contact" class="main-banner__nav-link">contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="main-banner__content">
+				<h1 class="main-banner__content-title">Fresh Life</h1>
+				<p class="section__content section__content--black">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+				<a href="#" class="main-banner__content-btn btn-primary btn--red">GET FREE NOW</a>
+			</div>
+			<a href="#about" class="main-banner__scroll">
+				<img class="main-banner__scroll-img" src="img/scroll.png" alt="">
+			</a>
+		</div>
+	</section>
+	<section class="about-us" id="about">
+		<div class="container about-us--bg flex-right">
+			<div class="about-us__content">
+				<h2 class="section__title">About Us</h2>
+				<p class="section__content section__content--white">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+				<br>
+				<br>
+				Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+			</div>
+			</div>
+	</section>
+	
+	<section class="services" id="services">
+		<div class="container services--bg flex-center">
+		    <ul class="services__list">
+			    <li>
+			        <a class="services__list-item" href="#">
+			            <span>Online Shopping</span>
+			            <img class="services__list-item-img" src="img/icon.svg" alt="">
+			        </a>
+			    </li>
+			    <li>
+			        <a class="services__list-item" href="#">           <span>Quality Product</span>
+			            <img class="services__list-item-img" src="img/icon2.svg" alt="">
+			        </a>
+			    </li>
+			    <li>
+			        <a class="services__list-item" href="#">
+			            <span>Domestic &amp; International Delivery</span>
+			            <img class="services__list-item-img" src="img/icon3.svg" alt="">
+			        </a>
+			    </li>
+			    <li>
+			        <a class="services__list-item" href="#">
+                        <span>Well Organized</span>
+                        <img class="services__list-item-img" src="img/icon4.svg" alt="">
+			        </a>
+			    </li>
+			</ul>
+			<h2 class="section__title">Our Services</h2>
+		</div>
+	</section>
+	
+	<section class="gallery" id="gallery">
+		<div class="container">
+            <div class="gallery__content">
+                <h2 class="section__title section__title--black">Gallery</h2>
+                <p class="section__content section__content--black">
+                    Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+		    <div class="gallery__img-container">
+              	<ul class="gallery__img-container-row1 flex-center">
+					<div class="gallery__img-container-col1">
+						<a href="#">
+							<li class="gallery__img-item" style="background-image: url('img/galery-img1.jpg')"></li>
+						</a>
+					</div>
+					<div class="gallery__img-container-col2">
+						<a href="#">
+							<li class="gallery__img-item" style="background-image: url('img/gallery-img2.jpg'); height: calc(50% - 30px);"></li>
+						</a>
+						<a href="#">
+							<li class="gallery__img-item" style="background-image: url('img/gallery-img3.jpg'); height: 50%;"></li>
+              			</a>
+               		</div>
+                </ul>
+                <div class="gallery__img-container-row2 flex-center">
+					<ul class="gallery__img-container-col3">
+						<a href="#">
+							<li class="gallery__img-item" style="background-image: url('img/gallery-img4.jpg')"></li>
+						</a>
+					</ul>
+					<ul class="gallery__img-container-col3">
+						<a href="#">
+							<li class="gallery__img-item" style="background-image: url('img/gallery-img5.jpg')"></li>
+						</a>
+					</ul>
+                </div>
 		    </div>
-			
-		</article>
+		    <a href="#" class="btn-primary btn--violet">VIEW MORE</a>
+		</div>
+	</section>
 </body>
 </html>
